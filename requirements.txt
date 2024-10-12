@@ -1,0 +1,8 @@
+---
+collections:
+  - name: kubernetes.core
+    version: ">=4.0.0"
+  - name: redhat.openshift
+    version: ">=3.0.1"
+  - name: redhat.openshift_virtualization
+    version: ">=1.4.0"
