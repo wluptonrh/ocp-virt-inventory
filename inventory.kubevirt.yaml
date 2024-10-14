@@ -1,11 +1,11 @@
-# plugin: kubevirt.core.kubevirt
-# connections:
-#   # validate_certs: false
-#   - namespaces:
-#      - vmimported
----
-plugin: redhat.openshift_virtualization.kubevirt
-strict: true
+plugin: kubevirt.core.kubevirt
 connections:
+  # validate_certs: false
   - namespaces:
-      - vmimported
+     - vmimported
+# ---
+# plugin: redhat.openshift_virtualization.kubevirt
+# strict: true
+# connections:
+#   - namespaces:
+#       - vmimported
