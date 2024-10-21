@@ -2,7 +2,7 @@ plugin: kubevirt.core.kubevirt
 connections:
   # validate_certs: false
   - namespaces:
-     - vmimported
+     - vmimported-user1
 # ---
 # plugin: redhat.openshift_virtualization.kubevirt
 # strict: true
